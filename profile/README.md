@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="GameHostCloud — Game Server Hosting" width="100%"/>
+  <img src="assets/banner.png" alt="GameHostCloud — Game Server Hosting" width="100%"/>
 
   <br/><br/>
 
