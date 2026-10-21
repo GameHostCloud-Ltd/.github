@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner.png" alt="GameHostCloud — Premium Game Server Hosting" width="100%"/>
+  <img src="https://raw.githubusercontent.com/GameHostCloud-Ltd/.github/main/profile/assets/banner.png" alt="GameHostCloud — Premium Game Server Hosting" width="100%"/>
 
   <br/><br/>
 
@@ -49,6 +49,20 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 
 ---
 
+## Hardware tiers
+
+| | Budget | Standard | Premium |
+|---|---|---|---|
+| **Best for** | Small groups & casual worlds | Busy communities & modded packs | Large networks & heavy modpacks |
+| **CPU** | Ryzen shared | Ryzen high-priority | Ryzen dedicated cores |
+| **Storage** | NVMe SSD | NVMe SSD | NVMe SSD |
+| **Protection** | DDoS-protected | DDoS-protected | DDoS-protected |
+| **Backups** | Scheduled off-site | Scheduled off-site | Scheduled off-site |
+
+*Every tier ships with the full control panel: console, file manager, versioning, schedulers, SFTP and team access — no paywalled basics.*
+
+---
+
 ## Supported games
 
 <details open>
@@ -82,6 +96,16 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 `FiveM` · `Garry's Mod` · `VRChat` · `Discord Bot Hosting`
 
 </details>
+
+---
+
+## From zero to online in three steps
+
+```text
+1. Pick your game          59 titles — from Minecraft to FiveM
+2. Pick your region        Helsinki · Frankfurt · Chicago · Sydney · Singapore
+3. Press deploy            Server online in under 60 seconds
+```
 
 ---
 
