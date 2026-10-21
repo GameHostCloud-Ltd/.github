@@ -131,9 +131,11 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 
 | Repository | What it is |
 |---|---|
-| [**ghc-latency**](https://github.com/GameHostCloud-Ltd/ghc-latency) | Honest browser-side latency measurement — real RTT from the visitor's browser, best-of-N sampling, zero deps. The exact approach our site uses to show region ping. MIT. |
-| [**game-server-catalog**](https://github.com/GameHostCloud-Ltd/game-server-catalog) | The public catalog of all 59 games we host — ids, Steam app IDs, default ports, categories — as clean JSON. MIT. |
+| [**ghc-latency**](https://github.com/GameHostCloud-Ltd/ghc-latency) | Honest browser-side latency measurement — real RTT from the visitor's browser, best-of-N sampling, zero deps, TypeScript types, tested on Node 18/20/22. The exact approach our site uses to show region ping. **[Live demo](https://gamehostcloud-ltd.github.io/ghc-latency/)** · MIT. |
+| [**game-server-catalog**](https://github.com/GameHostCloud-Ltd/game-server-catalog) | The public catalog of all 59 games we host — ids, Steam app IDs, default ports, categories — as clean JSON with a published JSON Schema and CI validation. MIT. |
 | [**.github**](https://github.com/GameHostCloud-Ltd/.github) | This profile's source — banner assets, README. |
+
+> No competitor ships their latency-measurement method or a schema-validated game catalog. We do — because measured numbers beat marketing.
 
 ---
 
