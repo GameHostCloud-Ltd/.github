@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0713"/>
+      <stop offset="55%" stop-color="#160B2E"/>
+      <stop offset="100%" stop-color="#2A1259"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <circle cx="1020" cy="60" r="220" fill="url(#halo)"/>
+  <circle cx="120" cy="260" r="180" fill="url(#halo)" opacity="0.6"/>
+
+  <!-- grid lines -->
+  <g stroke="#7C3AED" stroke-opacity="0.10">
+    <path d="M0 75 H1200 M0 150 H1200 M0 225 H1200"/>
+    <path d="M300 0 V300 M600 0 V300 M900 0 V300"/>
+  </g>
+
+  <!-- shield -->
+  <g transform="translate(90,55)" filter="url(#glow)">
+    <path d="M95 8 L172 38 V110 C172 156 138 190 95 200 C52 190 18 156 18 110 V38 Z"
+          fill="url(#violet)" stroke="#C084FC" stroke-width="3"/>
+    <path d="M108 52 L74 118 H97 L85 158 L126 92 H101 Z" fill="#F5F3FF"/>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="320" y="140" font-size="64" font-weight="800" letter-spacing="3" fill="#F5F3FF">GAMEHOST<tspan fill="url(#bolt)">CLOUD</tspan></text>
+    <text x="324" y="184" font-size="22" letter-spacing="8" fill="#C4B5FD">GAME SERVER HOSTING</text>
+  </g>
+
+  <!-- chips -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600">
+    <g>
+      <rect x="322" y="212" rx="14" height="30" width="150" fill="#1E1140" stroke="#7C3AED" stroke-opacity="0.6"/>
+      <text x="342" y="232" fill="#DDD6FE">59 games</text>
+    </g>
+    <g>
+      <rect x="486" y="212" rx="14" height="30" width="170" fill="#1E1140" stroke="#7C3AED" stroke-opacity="0.6"/>
+      <text x="506" y="232" fill="#DDD6FE">4 continents</text>
+    </g>
+    <g>
+      <rect x="670" y="212" rx="14" height="30" width="190" fill="#1E1140" stroke="#7C3AED" stroke-opacity="0.6"/>
+      <text x="690" y="232" fill="#DDD6FE">22 languages</text>
+    </g>
+    <g>
+      <rect x="874" y="212" rx="14" height="30" width="180" fill="#1E1140" stroke="#7C3AED" stroke-opacity="0.6"/>
+      <text x="894" y="232" fill="#DDD6FE">NVMe + Ryzen</text>
+    </g>
+  </g>
+</svg>
