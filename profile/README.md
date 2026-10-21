@@ -25,7 +25,7 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 
 <table>
   <tr>
-    <td width="33%"><b>Instant provisioning</b><br/>From order to a running server in under 60 seconds — automated builds on dedicated k3s workers, not queued manual setups.</td>
+    <td width="33%"><b>Instant provisioning</b><br/>From order to a running server in under 60 seconds — automated builds on dedicated workers, not queued manual setups.</td>
     <td width="33%"><b>Honest latency</b><br/>Every ping on our site is measured live from your browser to real regional anchors. Cities without a true anchor are marked unmeasurable — never guessed.</td>
     <td width="33%"><b>Real hardware</b><br/>Ryzen CPUs, NVMe storage, generous RAM tiers. Budget, Standard and Premium classes — what you buy is what you get.</td>
   </tr>
@@ -63,13 +63,21 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 
 ---
 
+<div align="center">
+  <a href="https://gamehostcloud.com/livesub">
+    <img src="https://raw.githubusercontent.com/GameHostCloud-Ltd/.github/main/profile/assets/livesub.png" alt="LiveSub — Real-time stream translation" width="100%"/>
+  </a>
+</div>
+
+---
+
 ## Supported games
 
 <details open>
-<summary><b>Survival &amp; Sandbox — 32 titles</b></summary>
+<summary><b>Survival &amp; Sandbox — 31 titles</b></summary>
 <br/>
 
-`Minecraft` · `Valheim` · `7 Days to Die` · `ARK: Survival Evolved` · `ARK: Survival Ascended` · `Rust` · `Palworld` · `Enshrouded` · `V Rising` · `Conan Exiles` · `The Forest` · `Sons of the Forest` · `Don't Starve Together` · `Raft` · `Project Zomboid` · `SCUM` · `Unturned` · `Eco` · `Icarus` · `Grounded` · `Terraria` · `Vintage Story` · `Core Keeper` · `Creativerse` · `Necesse` · `Myth of Empires` · `Barotrauma` · `Astroneer` · `Stationeers` · `Empyrion` · `RimWorld Together`
+[Minecraft](https://gamehostcloud.com/games/minecraft) · [Valheim](https://gamehostcloud.com/games/valheim) · [7 Days to Die](https://gamehostcloud.com/games/7-days-to-die) · [ARK: Survival Evolved](https://gamehostcloud.com/games/ark-survival-evolved) · [ARK: Survival Ascended](https://gamehostcloud.com/games/ark-survival-ascended) · [Rust](https://gamehostcloud.com/games/rust) · [Palworld](https://gamehostcloud.com/games/palworld) · [Enshrouded](https://gamehostcloud.com/games/enshrouded) · [V Rising](https://gamehostcloud.com/games/v-rising) · [Conan Exiles](https://gamehostcloud.com/games/conan-exiles) · [The Forest](https://gamehostcloud.com/games/the-forest) · [Sons of the Forest](https://gamehostcloud.com/games/sons-of-the-forest) · [Don't Starve Together](https://gamehostcloud.com/games/dont-starve-together) · [Raft](https://gamehostcloud.com/games/raft) · [Project Zomboid](https://gamehostcloud.com/games/project-zomboid) · [SCUM](https://gamehostcloud.com/games/scum) · [Unturned](https://gamehostcloud.com/games/unturned) · [Eco](https://gamehostcloud.com/games/eco) · [Icarus](https://gamehostcloud.com/games/icarus) · [Grounded](https://gamehostcloud.com/games/grounded) · [Terraria](https://gamehostcloud.com/games/terraria) · [Vintage Story](https://gamehostcloud.com/games/vintage-story) · [Core Keeper](https://gamehostcloud.com/games/core-keeper) · [Creativerse](https://gamehostcloud.com/games/creativerse) · [Necesse](https://gamehostcloud.com/games/necesse) · [Myth of Empires](https://gamehostcloud.com/games/myth-of-empires) · [Barotrauma](https://gamehostcloud.com/games/barotrauma) · [Astroneer](https://gamehostcloud.com/games/astroneer) · [Stationeers](https://gamehostcloud.com/games/stationeers) · [Empyrion](https://gamehostcloud.com/games/empyrion) · [RimWorld Together](https://gamehostcloud.com/games/rimworld-together)
 
 </details>
 
@@ -77,7 +85,7 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 <summary><b>FPS &amp; Tactical — 14 titles</b></summary>
 <br/>
 
-`Counter-Strike 2` · `CS:GO (Legacy)` · `Counter-Strike: Source` · `Counter-Strike 1.6` · `Team Fortress 2` · `Insurgency: Sandstorm` · `Left 4 Dead 2` · `Squad` · `Hell Let Loose` · `Pavlov VR` · `DayZ` · `Mordhau` · `Chivalry 2` · `SCP: Secret Laboratory`
+[Counter-Strike 2](https://gamehostcloud.com/games/cs2) · [CS:GO (Legacy)](https://gamehostcloud.com/games/csgo-legacy) · [Counter-Strike: Source](https://gamehostcloud.com/games/counter-strike-source) · [Counter-Strike 1.6](https://gamehostcloud.com/games/counter-strike-1-6) · [Team Fortress 2](https://gamehostcloud.com/games/team-fortress-2) · [Insurgency: Sandstorm](https://gamehostcloud.com/games/insurgency-sandstorm) · [Left 4 Dead 2](https://gamehostcloud.com/games/left-4-dead-2) · [Squad](https://gamehostcloud.com/games/squad) · [Hell Let Loose](https://gamehostcloud.com/games/hell-let-loose) · [Pavlov VR](https://gamehostcloud.com/games/pavlov-vr) · [DayZ](https://gamehostcloud.com/games/dayz) · [Mordhau](https://gamehostcloud.com/games/mordhau) · [Chivalry 2](https://gamehostcloud.com/games/chivalry-2) · [SCP: Secret Laboratory](https://gamehostcloud.com/games/scp-secret-laboratory)
 
 </details>
 
@@ -85,7 +93,7 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 <summary><b>Simulation, Racing &amp; More — 10 titles</b></summary>
 <br/>
 
-`Satisfactory` · `Factorio` · `Space Engineers` · `Farming Simulator 25` · `Stormworks` · `Assetto Corsa` · `Assetto Corsa Competizione` · `Arma 3` · `Arma Reforger` · `Among Us`
+[Satisfactory](https://gamehostcloud.com/games/satisfactory) · [Factorio](https://gamehostcloud.com/games/factorio) · [Space Engineers](https://gamehostcloud.com/games/space-engineers) · [Farming Simulator 25](https://gamehostcloud.com/games/farming-simulator-25) · [Stormworks](https://gamehostcloud.com/games/stormworks) · [Assetto Corsa](https://gamehostcloud.com/games/assetto-corsa) · [Assetto Corsa Competizione](https://gamehostcloud.com/games/acc) · [Arma 3](https://gamehostcloud.com/games/arma3) · [Arma Reforger](https://gamehostcloud.com/games/arma-reforger) · [Among Us](https://gamehostcloud.com/games/among-us)
 
 </details>
 
@@ -93,7 +101,7 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 <summary><b>Communities &amp; Platforms — 4 titles</b></summary>
 <br/>
 
-`FiveM` · `Garry's Mod` · `VRChat` · `Discord Bot Hosting`
+[FiveM](https://gamehostcloud.com/games/fivem) · [Garry's Mod](https://gamehostcloud.com/games/garrys-mod) · [VRChat](https://gamehostcloud.com/games/vrchat) · [Discord Bot Hosting](https://gamehostcloud.com/games/discord-bot-hosting)
 
 </details>
 
@@ -111,10 +119,39 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 
 ## Engineering notes
 
-- **Own control plane** — our panel, provisioning, and orchestration are built in-house (k3s + game-optimized workers), not a resold Multicraft/Pterodactyl skin.
+- **Own control plane** — our panel, provisioning, and orchestration are built in-house on game-optimized infrastructure, not a resold Multicraft/Pterodactyl skin.
 - **Honest latency** — the ping you see on the site is measured live from your browser to every region anchor. Cities without a real anchor are marked unmeasurable rather than guessed.
 - **Self-hosted stack** — auth, database, email, and game orchestration run on infrastructure we operate. Your data isn't rented out to third-party app platforms.
 - **Every customer email, in your language** — 22 languages, branded transactional mail, English fallback.
+- **Open source** — we're preparing public tooling for the community (server tooling, monitoring helpers and docs). Watch this space.
+
+---
+
+## FAQ
+
+<details>
+<summary><b>How fast is a server online after ordering?</b></summary>
+<br/>
+Under a minute for most titles. Provisioning is fully automated — no manual queue, no waiting for business hours.
+</details>
+
+<details>
+<summary><b>Can I switch games or versions later?</b></summary>
+<br/>
+Yes. The panel supports version switching and game changes on supported titles; worlds are archived safely before destructive changes.
+</details>
+
+<details>
+<summary><b>Do you throttle or oversell?</b></summary>
+<br/>
+No hidden throttling — tier resources are what you get. Budget, Standard and Premium classes differ by CPU priority and resource guarantees, not by surprise limits.
+</details>
+
+<details>
+<summary><b>Where can I see real latency before buying?</b></summary>
+<br/>
+Right on <a href="https://gamehostcloud.com">gamehostcloud.com</a> — every region's ping is measured live from your own browser to real network anchors. We never show estimates.
+</details>
 
 ---
 
@@ -122,7 +159,7 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 
 <div align="center">
 
-[Website](https://gamehostcloud.com) · [Game catalog](https://gamehostcloud.com/games) · [Status](https://status.gamehostcloud.com) · [LiveSub](https://gamehostcloud.com/livesub) · [Support](https://gamehostcloud.com/support) · [Trustpilot](https://www.trustpilot.com/review/gamehostcloud.com)
+[Website](https://gamehostcloud.com) · [Game catalog](https://gamehostcloud.com/games) · [Status](https://status.gamehostcloud.com) · [LiveSub](https://gamehostcloud.com/livesub) · [Support](https://gamehostcloud.com/support) · [Trustpilot](https://www.trustpilot.com/review/gamehostcloud.com) · [YouTube](https://www.youtube.com/@gamehostcloud)
 
 </div>
 

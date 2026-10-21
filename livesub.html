@@ -1,0 +1,60 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:100vw; height:100vh; overflow:hidden; }
+  html {
+    background:
+      radial-gradient(900px 300px at 12% -10%, hsla(200,85%,55%,0.30), transparent 60%),
+      radial-gradient(700px 280px at 92% 110%, hsla(275,80%,60%,0.22), transparent 60%),
+      linear-gradient(180deg, hsl(222,32%,14%), hsl(230,32%,12%));
+  }
+  body {
+    font-family:'Inter',sans-serif;
+    display:flex; align-items:center; padding:0 72px; gap:56px; position:relative;
+  }
+  .grid {
+    position:absolute; inset:0;
+    background-image:linear-gradient(hsla(200,85%,70%,0.05) 1px,transparent 1px),
+      linear-gradient(90deg,hsla(200,85%,70%,0.05) 1px,transparent 1px);
+    background-size:80px 80px;
+    mask-image:radial-gradient(1000px 260px at 60% 50%,black,transparent 85%);
+    -webkit-mask-image:radial-gradient(1000px 260px at 60% 50%,black,transparent 85%);
+  }
+  .col { position:relative; display:flex; flex-direction:column; gap:14px; }
+  .word {
+    font-family:'Montserrat',sans-serif; font-weight:800; font-size:56px; letter-spacing:0.06em;
+    line-height:1; white-space:nowrap;
+    background:linear-gradient(90deg,hsl(200,85%,60%),hsl(217,91%,62%),hsl(260,75%,62%),hsl(270,80%,62%));
+    -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+  }
+  .tag {
+    font-family:'Montserrat',sans-serif; font-weight:700; font-size:17px;
+    letter-spacing:0.30em; color:hsl(205,60%,80%);
+  }
+  .sub { font-size:16.5px; color:hsl(220,20%,82%); max-width:760px; line-height:1.5; }
+  .chips { display:flex; gap:12px; margin-top:4px; }
+  .chip {
+    font-weight:600; font-size:14.5px; color:hsl(210,40%,94%);
+    padding:8px 16px; border-radius:999px;
+    background:hsla(222,30%,20%,0.85);
+    border:1px solid hsla(200,85%,60%,0.4);
+    display:flex; align-items:center; gap:8px;
+  }
+  .dot { width:8px; height:8px; border-radius:50%; }
+</style></head>
+<body>
+  <div class="grid"></div>
+  <div class="col">
+    <div class="word">LIVESUB</div>
+    <div class="tag">REAL-TIME STREAM TRANSLATION</div>
+    <div class="sub">Live captions and speech-to-speech translation for streamers — hear and read every language, live. OBS overlay, studio preview, and regional ingest for low-latency pipelines.</div>
+    <div class="chips">
+      <div class="chip"><span class="dot" style="background:hsl(200,85%,58%)"></span>OBS overlay</div>
+      <div class="chip"><span class="dot" style="background:hsl(217,91%,62%)"></span>Live captions</div>
+      <div class="chip"><span class="dot" style="background:hsl(260,75%,62%)"></span>Speech-to-speech</div>
+      <div class="chip"><span class="dot" style="background:hsl(270,80%,62%)"></span>Regional ingest</div>
+    </div>
+  </div>
+</body></html>
