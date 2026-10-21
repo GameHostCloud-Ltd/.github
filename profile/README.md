@@ -123,7 +123,17 @@ Built in Finland by <a href="https://gamehostcloud.com">HHI Solutions Oy</a>.</p
 - **Honest latency** — the ping you see on the site is measured live from your browser to every region anchor. Cities without a real anchor are marked unmeasurable rather than guessed.
 - **Self-hosted stack** — auth, database, email, and game orchestration run on infrastructure we operate. Your data isn't rented out to third-party app platforms.
 - **Every customer email, in your language** — 22 languages, branded transactional mail, English fallback.
-- **Open source** — we're preparing public tooling for the community (server tooling, monitoring helpers and docs). Watch this space.
+- **Open source** — we publish real tooling for the community. See below.
+
+---
+
+## Open source
+
+| Repository | What it is |
+|---|---|
+| [**ghc-latency**](https://github.com/GameHostCloud-Ltd/ghc-latency) | Honest browser-side latency measurement — real RTT from the visitor's browser, best-of-N sampling, zero deps. The exact approach our site uses to show region ping. MIT. |
+| [**game-server-catalog**](https://github.com/GameHostCloud-Ltd/game-server-catalog) | The public catalog of all 59 games we host — ids, Steam app IDs, default ports, categories — as clean JSON. MIT. |
+| [**.github**](https://github.com/GameHostCloud-Ltd/.github) | This profile's source — banner assets, README. |
 
 ---
 
